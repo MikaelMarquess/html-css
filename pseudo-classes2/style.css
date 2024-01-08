@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    color: rgba(40, 40, 252, 0.555);
+}
+
+a:hover{ /*Pseudo-classe que muda o estado do elemento caso passe por cima.*/
+    text-decoration: underline;
+    color: blue;
+}
+
+a:active{ /*Pseudo-classe que muda o estado do elemento caso esteja sendo pressionado.*/
+    color: black;
+}
+
+.especial{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+
+.especial::before{/*Pseudo-elemento*/
+    content: '{link}';
+    color: gray;
+}
+
+.especial::after{/*Pseudo-elemento*/
+    content: '{link}';
+    color: gray;
+}

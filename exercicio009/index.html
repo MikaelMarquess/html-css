@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+
+    <h1>Imagens dinâmicas</h1>
+    <hr>
+    <p>Aumente ou diminua a imagem de acordo com o dispositivo do usuário</p>
+    
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="imagens/saitama-300.jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/saitama-700.jpeg">
+        <img src="imagens/saitaminho.avif" alt="">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,46 @@
+div.divhover{
+    display: inline-block;
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    border-style: groove;
+    text-align: center;
+    line-height: 300px;
+    padding: 2px;
+}
+
+
+
+div.escondido{
+    color: brown;
+}
+
+div.escondido:hover{
+    color: red;
+}
+
+div.escondido > p{
+    display: none;
+}
+
+div.escondido:hover > p{
+    display: block;
+    color: black;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:active{
+    color: yellow;
+}

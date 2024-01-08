@@ -1,0 +1,43 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+   text-align: right;
+}
+
+.principal{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: left;
+    color: rgba(0, 128, 0, 0.514);
+}
+
+.basico{
+    color: rgba(0, 102, 0, 0.466);
+}
+
+.intermediario{
+    color: rgba(184, 184, 0, 0.788);
+}
+
+.avancado{
+    color: rgba(177, 0, 0, 0.678);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.especial{
+    background-color: rgba(0, 0, 255, 0.151);
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>As imagens dinâmicas se adaptam de acordo com o tamanho de seu dispositivo.
+        Elas poderão tomar diferentes medidas de acordo com o tamanho de sua tela.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.png" type="image/png">
+        <img src="imagens/imagemG.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

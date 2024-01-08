@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: gray;
+            height: 100px;
+            width: 280px;
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: blue;
+
+            margin: auto 15px 60px 80px;
+            padding: 15px;
+
+        }
+       
+        a{
+            border-color: black;
+            border-width: 15px;
+            border-style: solid;
+
+            padding: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="chamar()">Exemplo de caixas box-level</h1>
+    <p>Os parágrafos são exemplos de box-level, mas <a href="#">os links são exemplos de inline-level</a>.
+    Vamos ver como tudo isso funciona.</p>
+
+    <script>
+        var n = window.document.getElementsByTagName(`h1`)[0]
+
+        function chamar(){
+            n.innerHTML = `POR QUE PORRA TU ME CLICOU?`
+            n.style.background = `red`
+        }
+
+    </script>
+</body>
+</html>

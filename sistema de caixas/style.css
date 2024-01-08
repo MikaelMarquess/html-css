@@ -1,0 +1,24 @@
+h1{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+p{
+    border-style: solid;
+    padding-top: 60px;
+    margin-top: 60px;
+    height: 150px;
+}
+
+a{
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
