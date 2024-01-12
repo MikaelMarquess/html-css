@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(4, 4, 185, 0.562);
+}
+
+h1{
+    color: white;
+}
+
+main .section-1 > h2{
+    color: yellow;
+    background-color: initial;
+    border: initial;
+
+}
+
+section > h2{
+    background-color: brown;
+    border: 4px solid black;
+}
+
+section > ul > li.astronomia{
+    color: red;
+}
+
+
+
+
+
